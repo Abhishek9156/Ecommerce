@@ -31,7 +31,7 @@ class TAppTheme {
   static ThemeData darkTheme = ThemeData(
       useMaterial3: true,
       fontFamily: 'Roboto',
-      brightness: Brightness.light,
+      brightness: Brightness.dark,
       primaryColor: Colors.blue,
       scaffoldBackgroundColor: Colors.black,
       textTheme: TTextTheme.darkTextTheme,

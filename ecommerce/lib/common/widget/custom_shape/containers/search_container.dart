@@ -50,7 +50,7 @@ onTap: onTap,
               ),
               Text(
                 text,
-                style: Theme.of(context).textTheme.bodySmall!.apply(color: dark?TColors.white:TColors.dark),
+                style: Theme.of(context).textTheme.bodySmall,
               )
             ],
           ),

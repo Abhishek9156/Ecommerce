@@ -34,7 +34,7 @@ class OnBoardingPage extends StatelessWidget {
             style: Theme
                 .of(context)
                 .textTheme
-                .bodyMedium,
+                .bodyMedium!.apply(color: THelperFunctions.isDarkMode(context)?TColors.white:TColors.black),
             textAlign: TextAlign.center,
           )
         ],

@@ -93,7 +93,6 @@ class TProductCardVertical extends StatelessWidget {
                   ),
                   TBrandTextTitleWithVerifiedIcon(
                     title: "Nike",
-                    textColor: TColors.black,
                   ),
                 ],
               ),
@@ -108,7 +107,6 @@ class TProductCardVertical extends StatelessWidget {
                   child: TProductPriceText(
                     price: '25',
                     isLarge: true,
-
                   ),
                 ),
                 Container(

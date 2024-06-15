@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                   SizedBox(height: TSize.spaceBtwSection),
 
                   /// SearchBar
-                  TSearchContainer(text: "Search in Store",),
+                  TSearchContainer(text: "Search in Store"),
                   SizedBox(height: TSize.spaceBtwSection),
 
                   /// Categories
@@ -42,6 +42,7 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         TSectionHeading(
                           title: 'Popular Categories',
+                          showActionButton: false,
                           textColor: TColors.white,
                         ),
                         SizedBox(height: TSize.spaceBtwItem),
